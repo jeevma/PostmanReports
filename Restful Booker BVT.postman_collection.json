@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "93e1a827-cb5d-414b-921e-c42515676644",
+		"_postman_id": "1230d0c8-742b-4a6b-8bdb-a979d642ee0b",
 		"name": "Restful Booker BVT",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "10404269"
@@ -1131,8 +1131,8 @@
 							"    pm.response.to.be.success;",
 							"});",
 							"",
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
 							"});",
 							"",
 							"postman.setNextRequest(null);"
@@ -1231,7 +1231,7 @@
 					"status": "Bad Request",
 					"code": 400,
 					"_postman_previewlanguage": "json",
-					"header": null,
+					"header": [],
 					"cookie": [],
 					"body": "{\r\n    \"token\": \"6f8aa31c8cb132d\"\r\n}"
 				},
@@ -1262,7 +1262,7 @@
 					"status": "Bad Request",
 					"code": 400,
 					"_postman_previewlanguage": "json",
-					"header": null,
+					"header": [],
 					"cookie": [],
 					"body": "{\r\n    \"token\": \"6f8aa31c8cb144d\"\r\n}"
 				},
@@ -1293,7 +1293,7 @@
 					"status": "Bad Request",
 					"code": 400,
 					"_postman_previewlanguage": "json",
-					"header": null,
+					"header": [],
 					"cookie": [],
 					"body": "{\r\n    \"token\": \"\"\r\n}"
 				}
